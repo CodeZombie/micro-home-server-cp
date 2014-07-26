@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<small>(✿◠‿◠)</small> <em>Jims Media Server Interface</em>
+		</div>
+	</div>
+	<div id="statusbar" class="container">
+		Server Status: <span id="status_indicator" class="yellow">Unknown</span> 
+	</div>
+	<div class="container">
+		<div class="box">
+			<div class="header">
+				Actions:
+			</div>
+			<div class="content">
+				<a class="button" href="/lua/wake">
+					Turn On Server
+				</a>
+				<a class="button" href="/lua/checkwake">
+					Check Server Status
+				</a>
+				<a class="button" href="theater_ip:1234/checkuptime">
+					Check Server Uptime
+				</a>
+				<a class="button" href="theater_ip:4321">
+					File Transfer Web Interface
+				</a>
+				<a class="button" href="theater_ip:1901">
+					Torrent Web Interface
+				</a>
+				<a class="button" href="theater_ip:9876">
+					Plex Web Interface
+				</a>
+			</div>
+		</div>
+		<div id="console" class="box">
+			<div class="header">
+				Server Log:
+			</div>
+			<div class="content">
+				<em>[time]</em> server log output in text format this can probably be much longer<br/>
+			</div>
+		</div>
+	</div>
+</body>

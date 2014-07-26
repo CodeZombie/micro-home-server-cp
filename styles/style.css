@@ -1,0 +1,90 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: ‘Times New Roman’, Times, serif;
+}
+#header{
+	margin-bottom:8px;
+	padding-top:4px;
+	padding-bottom:4px;
+	font-size:1.2em;
+	background:#efe;
+}
+#statusbar{
+	margin-bottom:32px;
+	font-size:.75em;
+	text-align:right;
+}
+.green {
+	color:#3a3;
+	font-weight: bold;
+}
+.red {
+	color:#a33;
+	font-weight: bold;
+}
+.yellow {
+	color:#aa3;
+	font-weight: bold;
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+}
+.box{
+	margin-bottom:32px;
+}
+.box .header{
+	font-style:italic;
+}
+#console .content{
+	font-family: monospace;
+}
+#console .content em{
+	color:#3a3;
+}
+.button{
+	display:block;
+	width:auto;
+	margin-bottom: .5em;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left:16px;
+	padding-right:16px;
+	text-align: center;
+	color:#33a;
+	background:#eee;
+}
+.button:hover{
+	background:#aaf;
+}
+
+@media only screen and (min-width: 767px) {
+	.container{
+		width:720px;
+	}
+	.box{
+		float:left;
+		width:344px;
+	}
+	#console{
+		margin-left:16px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.container{
+		width:300px;
+	}
+	.button{
+		padding-top:16px;
+		padding-bottom:16px;
+	}
+}
+@media only screen and (min-width: 959px) {
+	.container{
+		width:912px;
+	}
+	.box{
+		width:448px;
+	}
+}
